@@ -15,14 +15,19 @@ public class Main {
         System.out.println("die nächste");
 
         Name zeshan = new Name("Zeshan");
+        Name shahid = new Name("Shahid");
 
 
-         List<Name> zeshansArray = new ArrayList<>();
+
+        List<Name> zeshansArray = new ArrayList<>();
         zeshansArray.add(zeshan);
 
         Map<Integer,Name> listOfNames = new HashMap<>();
         listOfNames.put(1,zeshan);
+        listOfNames.put(2,shahid);
 
         System.out.println("Zeshan Shahid");
+        System.out.println(zeshansArray);
+        System.out.println(listOfNames);
     }
 }
