@@ -22,9 +22,7 @@ public class Main {
 
         Map<Integer,Name> listOfNames = new HashMap<>();
         listOfNames.put(1,zeshan);
+
+        System.out.println("Zeshan Shahid");
     }
-
-
-    }
-
-
+}
